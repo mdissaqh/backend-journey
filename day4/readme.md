@@ -1,0 +1,1 @@
+In day4 I updated the notes-creator backend api with previous features of day3. I Learnt and used get,post,patch,put and delete methods from rest api.
