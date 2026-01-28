@@ -1,0 +1,1 @@
+In day5 I learnt about status codes.
