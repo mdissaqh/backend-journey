@@ -1,0 +1,32 @@
+@mixin flex-column($gap:0rem) {
+    display: flex;
+    flex-direction: column;
+    gap: $gap;
+};
+
+
+main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .formContainer {
+        min-width: 400px;
+        @include flex-column(0.6rem);
+        form {
+            @include flex-column(0.75rem);
+            input {
+                padding-inline: 0.5rem;
+                padding-block: 1rem;
+                border-radius: 0.8rem;
+                border: 0.2px solid black;
+
+                &:focus {
+                    outline: 1px solid #0064E0;
+                }
+            }
+        }
+    }
+}

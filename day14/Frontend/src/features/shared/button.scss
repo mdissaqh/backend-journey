@@ -1,0 +1,15 @@
+button{
+    border: none;
+    padding-block: 0.75rem;
+    border-radius: 1.5rem;
+    &.primaryButton{
+        background-color: #99C1F3;
+        color: white;
+    }
+    &:active{
+        transform: scale(0.9);
+    }
+    &:hover{
+        background-color:#0064E0 ;
+    }
+}
