@@ -1,0 +1,12 @@
+@use './button.scss';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body,#root{
+    width: 100%;
+    background-color: #DEF0FE;
+}

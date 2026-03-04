@@ -1,0 +1,9 @@
+button{
+    padding-block: 0.6rem;
+    border-radius: 0.5rem;
+    border: none;
+    &.primary-button{
+        background-color: #0059CD;
+        color: white;
+    }
+}
