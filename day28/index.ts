@@ -3,3 +3,9 @@ function bye(name:string):void{
 }
 
 bye("Issaqh")
+let a:unknown
+a="hello"
+
+if(typeof a==="string"){
+    console.log(a.toUpperCase())
+}
