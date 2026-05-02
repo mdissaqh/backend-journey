@@ -18,6 +18,14 @@ app.get('/health', (req, res) => {
     res.status(200).json({ status: "OK" });
 })
 
+app.get("/dockercompose",(req,res)=>{
+    res.status(200).json({
+        message: "Docker Compose endpoint",
+        service: "backend",
+        status: "running"
+    });
+})
+
 app.listen(3000, () => {
     console.log("Server is running on port 3000");
 })
